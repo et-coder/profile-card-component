@@ -7,7 +7,7 @@
 main {
     height: 100vh;
     background-color: hsl(185, 75%, 39%);
-    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-image: url("../images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
     background-size: 800px, 800px;
     background-repeat: no-repeat;
     background-position: top -500px left -550px, bottom -450px right -550px;
@@ -20,7 +20,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    background-image: url("/images/bg-pattern-card.svg");
+    background-image: url("../images/bg-pattern-card.svg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 300px;
