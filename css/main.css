@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-size: 800px, 800px;
+    background-repeat: no-repeat;
+    background-position: top -500px left -550px, bottom -450px right -550px;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-image: url("/images/bg-pattern-card.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: 5em auto 1em;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: hsl(229, 23%, 23%)
+}
+
+.name span {
+    font-weight: normal;
+    color: hsl(227, 10%, 46%);
+    margin-left: 0.25em;
+}
+
+.place {
+    text-align: center;
+    margin: 0.5em 0 1.3em;
+    color: hsl(227, 10%, 46%);
+}
+
+.socials {
+    border-top: 0.5px solid rgb(161, 159, 159);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 2em;
+}
+
+.stats {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    font-size: 0.8rem;
+    font-weight: normal;
+    display: block;
+    color: hsl(227, 10%, 46%);
+    margin-top: 0.3em
+}
